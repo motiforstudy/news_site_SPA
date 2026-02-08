@@ -1,0 +1,21 @@
+{
+  "name": "news_site_spa",
+  "version": "1.0.0",
+  "description": "\"# news_site_SPA\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motiforstudy/news_site_SPA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/motiforstudy/news_site_SPA/issues"
+  },
+  "homepage": "https://github.com/motiforstudy/news_site_SPA#readme"
+}

@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10vh;
+}
+
+section{
+    height: 70vh;
+    width: 50vw;
+    background-color: aqua;
+    position: fixed;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+
+#main_news_page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: dodgerblue;
+    padding: 5px;
+    gap: 5px;
+}
+
+#main_news_page div{
+    width: 4rem;
+}
