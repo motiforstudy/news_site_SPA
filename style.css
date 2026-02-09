@@ -25,13 +25,46 @@ section{
 
 #main_news_page{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     background-color: dodgerblue;
     padding: 5px;
     gap: 5px;
 }
 
-#main_news_page div{
-    width: 4rem;
+#edditional_manor{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    /* display: none; */
+}
+
+#edditional_barcelona{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(121, 33, 33);
+    display: none;
+}
+
+#edditional_real_madrid{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 175, 180);
+    display: none;
+}
+
+#edditional_liverpool{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 119, 67);
+    display: none;
+}
+
+#create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: red;
 }
